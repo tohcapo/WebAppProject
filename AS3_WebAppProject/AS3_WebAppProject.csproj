@@ -67,6 +67,9 @@
     <EmbeddedResource Include="FormCustomerIncidents.resx">
       <DependentUpon>FormCustomerIncidents.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormProductMaintenance.resx">
       <DependentUpon>FormProductMaintenance.cs</DependentUpon>
     </EmbeddedResource>

@@ -16,5 +16,42 @@ namespace AS3_WebAppProject
         {
             InitializeComponent();
         }
+
+        private void buttonTechnicianMaintenance_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonCustomerIncidents_Click(object sender, EventArgs e)
+        {
+            FormCustomerIncidents frmCustomerIncidents = new FormCustomerIncidents();
+            frmCustomerIncidents.ShowDialog();
+        }
+
+        private void buttonProductMaintenance_Click(object sender, EventArgs e)
+        {
+            FormProductMaintenance frmProductMainenance = new FormProductMaintenance();
+            frmProductMainenance.ShowDialog();
+        }
+
+        private void buttonAddIncident_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAddRegistration_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonUserAccountMaintenance_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
